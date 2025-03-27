@@ -1,0 +1,69 @@
+
+.header {
+    /* Header has inverted colors */
+    background-color: var(--foreground);
+    color: var(--background); 
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+@media screen and (orientation: landscape) 
+{
+    .header {
+        max-width: 350px;
+        width: 100%;
+        height: 100vh;
+    }
+}
+@media screen and (orientation: portrait)
+{
+   .header {
+       max-width: 100%;
+       padding-bottom: 50px;
+       margin-top: 150px;
+   } 
+}
+
+.mugshot {
+}
+
+@media screen and (orientation: landscape)
+{
+    .mugshot {
+        margin-top: 12.5%;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+}
+
+@media screen and (orientation: portrait)
+{
+    .mugshot {
+        margin-top: -15%;
+        width: 55%;
+        margin-left: 22.5%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+}
+
+.header > div {
+    display: flex;
+}
+.spacer {
+    flex-grow: 1;
+}
+
+.gridContent {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 2em auto;
+}
+
+.gridContent > div
+{
+    padding: 0.5em 0;
+}
+
+.gridContent > div:nth-child(odd)
+{
+    text-align: center;
+}

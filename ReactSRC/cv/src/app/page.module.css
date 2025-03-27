@@ -1,0 +1,17 @@
+.page {
+    display: flex;
+    width: 100%;
+}
+
+@media (orientation: portrait)
+{
+    .page {
+        flex-direction: column;
+    }
+}
+@media (orientation: landscape)
+{
+    .page {
+        flex-direction: row;
+    }
+}

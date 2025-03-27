@@ -1,0 +1,11 @@
+.section {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2em;
+}
+
+.section h1 {
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--foreground);
+    margin-bottom: 0.5em;
+}
