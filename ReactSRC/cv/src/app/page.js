@@ -107,6 +107,12 @@ export default function Home() {
             </Section>
 
             <Section label="Work Experience">
+            <SectionLine title="Zoombezi Bay" details="Security" date="May - August 2023" />
+            <ul>
+                <li>Enforced security and safety protocols.</li>
+                <li>Operated <i>Evolved Weapons Detection System</i>.</li>
+                <li>Negotiated difficult, stressful, and emotionally charged situations</li>
+            </ul>
             <SectionLine title="Whit's Frozen Custard" details="Shift Manager" date="Jan 2021 - Jun 2022" />
             <ul>
             <li>
